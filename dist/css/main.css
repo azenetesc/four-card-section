@@ -100,7 +100,6 @@ body .attribution a {
   border-top: 4px var(--clr-blue) solid;
 }
 
-/* TOOLS COLORS */
 @media (min-width: 48em) {
   .main-info {
     width: 38%;
@@ -125,6 +124,7 @@ body .attribution a {
     height: 33rem;
   }
   .tools-container .main-tools {
+    height: 15.625rem;
     flex: 1;
   }
   .tools-container .main-tools h2 {
