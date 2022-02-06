@@ -1,0 +1,46 @@
+@use "base/variables" as *;
+@use "base/reset" as *;
+@use "base/base" as *;
+@use "components/header" as *;
+@use "components/tools" as *;
+
+@media (min-width: 48em) {
+  .main-info {
+    width: 38%;
+    margin: auto;
+    .main-title {
+      font-size: 2.27rem;
+      margin-bottom: 1rem;
+      line-height: 50px;
+    }
+    .main-text {
+      line-height: 26px;
+    }
+  }
+
+  .tools-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 81%;
+    margin: 4rem auto;
+    height: 33rem;
+    .main-tools {
+      flex: 1;
+      h2 {
+        margin-bottom: 0.6rem;
+      }
+      img {
+        margin-top: 1.95rem;
+      }
+    }
+    .main-tools-group {
+      width: 32%;
+      height: 100%;
+      .tool-tb {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,145 @@
+:root {
+  --clr-red: hsl(0, 78%, 62%);
+  --clr-cyan: hsl(180, 62%, 55%);
+  --clr-orange: hsl(34, 97%, 64%);
+  --clr-blue: hsl(212, 86%, 64%);
+  --clr-very-dark-blue: hsl(234, 12%, 34%);
+  --clr-grayish-blue: hsl(229, 6%, 66%);
+  --clr-very-light-gray: hsl(0, 0%, 98%);
+  --ff-body: "Poppins", sans-serif;
+  --fw-light: 200;
+  --fw-normal: 400;
+  --fw-bold: 600;
+  --fs-base: calc(15 / 16) * 1rem;
+  --bp-sm: 33em;
+  --bp-md: 48em;
+  --bp-lg: 77em;
+  --bp-xl: 91em;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-base);
+  background-color: var(--clr-very-light-gray);
+  color: var(--clr-grayish-blue);
+}
+body .container {
+  width: calc(100vw - 64px);
+  margin: 5rem auto 0;
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+body .attribution a {
+  color: #3e52a3;
+}
+
+.main-info {
+  text-align: center;
+}
+.main-info .main-title {
+  font-weight: var(--fw-light);
+  margin-bottom: 1.9rem;
+}
+.main-info .main-title .main-title-strong {
+  display: inline-block;
+  font-weight: var(--fw-bold);
+  color: var(--clr-very-dark-blue);
+}
+.main-info .main-text {
+  color: var(--clr-grayish-blue);
+  font-weight: var(--fw-normal);
+}
+
+/* CONTENEDOR TOOLS */
+.tools-container {
+  margin: 4.75rem auto;
+  /* TOOLS SECTIONS */
+}
+.tools-container .main-tools {
+  border-radius: 8px;
+  padding: 1.75rem 1.75rem 1.5rem;
+  box-shadow: 1px 10px 20px 8px rgba(53, 53, 53, 0.082);
+  margin-bottom: 25px;
+  text-align: right;
+  font-size: 0.85rem;
+  background-color: #fff;
+}
+.tools-container .main-tools h2,
+.tools-container .main-tools p {
+  text-align: left;
+}
+.tools-container .main-tools h2 {
+  color: var(--clr-very-dark-blue);
+}
+.tools-container .main-tools p {
+  line-height: 25px;
+}
+.tools-container .main-tools img {
+  margin-top: 1.8rem;
+}
+.tools-container .tool-super {
+  border-top: 4px var(--clr-cyan) solid;
+}
+.tools-container .tool-tb {
+  border-top: 4px var(--clr-red) solid;
+}
+.tools-container .tool-karma {
+  border-top: 4px var(--clr-orange) solid;
+}
+.tools-container .tool-calc {
+  border-top: 4px var(--clr-blue) solid;
+}
+
+/* TOOLS COLORS */
+@media (min-width: 48em) {
+  .main-info {
+    width: 38%;
+    margin: auto;
+  }
+  .main-info .main-title {
+    font-size: 2.27rem;
+    margin-bottom: 1rem;
+    line-height: 50px;
+  }
+  .main-info .main-text {
+    line-height: 26px;
+  }
+
+  .tools-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 81%;
+    margin: 4rem auto;
+    height: 33rem;
+  }
+  .tools-container .main-tools {
+    flex: 1;
+  }
+  .tools-container .main-tools h2 {
+    margin-bottom: 0.6rem;
+  }
+  .tools-container .main-tools img {
+    margin-top: 1.95rem;
+  }
+  .tools-container .main-tools-group {
+    width: 32%;
+    height: 100%;
+  }
+  .tools-container .main-tools-group .tool-tb {
+    margin-bottom: 30px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,17 @@
+.main-info {
+  text-align: center;
+  .main-title {
+    font-weight: var(--fw-light);
+    margin-bottom: 1.9rem;
+    .main-title-strong {
+      display: inline-block;
+      font-weight: var(--fw-bold);
+      color: var(--clr-very-dark-blue);
+    }
+  }
+
+  .main-text {
+    color: var(--clr-grayish-blue);
+    font-weight: var(--fw-normal);
+  }
+}

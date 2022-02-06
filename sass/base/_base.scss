@@ -1,0 +1,17 @@
+body {
+  font-family: var(--ff-body);
+  font-size: var(--fs-base);
+  background-color: var(--clr-very-light-gray);
+  color: var(--clr-grayish-blue);
+  .container {
+    width: calc(100vw - 64px);
+    margin: 5rem auto 0;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+}

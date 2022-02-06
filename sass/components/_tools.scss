@@ -1,0 +1,46 @@
+/* CONTENEDOR TOOLS */
+.tools-container {
+  margin: 4.75rem auto;
+  /* TOOLS SECTIONS */
+  .main-tools {
+    border-radius: 8px;
+    padding: 1.75rem 1.75rem 1.5rem;
+    box-shadow: 1px 10px 20px 8px rgba(53, 53, 53, 0.082);
+    margin-bottom: 25px;
+    text-align: right;
+    font-size: 0.85rem;
+    background-color: #fff;
+
+    h2,
+    p {
+      text-align: left;
+    }
+
+    h2 {
+      color: var(--clr-very-dark-blue);
+    }
+
+    p {
+      line-height: 25px;
+    }
+
+    img {
+      margin-top: 1.8rem;
+    }
+  }
+  .tool-super {
+    border-top: 4px var(--clr-cyan) solid;
+  }
+
+  .tool-tb {
+    border-top: 4px var(--clr-red) solid;
+  }
+
+  .tool-karma {
+    border-top: 4px var(--clr-orange) solid;
+  }
+
+  .tool-calc {
+    border-top: 4px var(--clr-blue) solid;
+  }
+}
